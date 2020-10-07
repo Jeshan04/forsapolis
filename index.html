@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ForsaPolis</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!--Favicon-->
+<link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">forsapolis</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carousel">Videos</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <marquee behavior="slide" direction="up" scrollamount="15"><h1 class="big-heading">Welcome To The Official Forsapolis Webpage</h1></marquee>
+          <button type="button" id="myButton" class="btn btn-danger btn-lg download-button"><i class="fab fa-youtube"></i>Youtube</button>
+          <script type="text/javascript">
+          document.getElementById("myButton").onclick = function () {
+         location.href = "https://www.youtube.com/channel/UC1go1fd_V8TnWhss7uQVtQQ";
+          }
+          </script>
+          <button type="button" id="discord-btn" class="btn btn-dark btn-lg download-button"><i class="fab fa-discord"></i> Discord</button>
+           <script type="text/javascript">
+          document.getElementById("discord-btn").onclick = function () {
+         location.href = "https://discord.gg/dcAKuu2";
+          }
+          </script>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="webimages\head.png" alt="heading image" >
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+    
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-calendar-check fa-4x"></i>
+          <h3 class="feature-title">Regularity.</h3>
+          <p>We Upload 3 Videos A Week.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-gamepad fa-4x"></i>
+          <h3 class="feature-title">Versatile Games</h3>
+          <p>You Will See Various Games On This Channel</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-tasks fa-4x"></i>
+          <h3 class="feature-title">Tasks & Challenges</h3>
+          <p>Tasks & Challenges For Entertainment</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Carousel-->
+
+  <section class="colored-section" id="carousel">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Watch Our Latest Video By Clicking The Button Below</h2>
+           <button type="button" id="myButton1" class="btn btn-danger btn-lg download-button"><i class="fab fa-youtube"></i>Latest Video</button>
+          <script type="text/javascript">
+          document.getElementById("myButton1").onclick = function () {
+         location.href = "https://www.youtube.com/watch?v=8OjagRj9OQ4";
+    };
+</script>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Wanna See The Best Sniping Montage In Call Of Duty Click The Button!!</h2>
+          <button type="button" id="myButton2" class="btn btn-danger btn-lg download-button"><i class="fab fa-youtube"></i>Sniping Montage</button>
+          <script type="text/javascript">
+          document.getElementById("myButton2").onclick = function () {
+         location.href = "https://www.youtube.com/watch?v=pOdDjx3OsqU";
+    };
+  </script>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- details -->
+  
+
+    <div class="middle-container">
+   
+      <div class="skill-row">
+       <h3>FP: Website</h3>
+       <p>The forsapolis website is designed and developed by Eshan Joshi.</p>
+      </div>
+
+      <div class="skill-row">
+       <h3>FP: Discord</h3>
+       <p>Soham Sawant manages discord server. Any help regarding discord server DM him on<a href="https://www.instagram.com/forsapolis_elite/"> Instagram.</a></p>
+      </div>
+
+
+</section>
+<marquee   scrollamount="10">
+    <div> 
+      Watch Our Videos On  <button type="button" id="mButton" class="btn btn-danger btn-lg download-button"><i class="fab fa-youtube"></i>Youtube</button>
+          <script type="text/javascript">
+          document.getElementById("mButton").onclick = function () {
+         location.href = "https://www.youtube.com/channel/UC1go1fd_V8TnWhss7uQVtQQ";
+          }
+          </script>
+          Follow Us On Instagram  <button type="button" id="Instagram-btn" class="btn btn-outline-warning btn-lg download-button"><i class="fab fa-instagram"></i> Instagram</button>
+           <script type="text/javascript">
+          document.getElementById("Instagram-btn").onclick = function () {
+         location.href = "https://www.instagram.com/forsapolis_yt/";
+          }
+          </script>
+          Join Our Server On  <button type="button" id="discord-btn2" class="btn btn-dark btn-lg download-button"><i class="fab fa-discord"></i> Discord</button>
+           <script type="text/javascript">
+          document.getElementById("discord-btn2").onclick = function () {
+         location.href = "https://discord.gg/dcAKuu2";
+          }
+          </script>
+          
+    </div>
+
+   </marquee>
+  <!-- Footer -->
+
+  <footer class="colored-section" id="footer">
+    <div class="footer-fluid">
+      <h3>Contact Developer!</h3>
+      <a href="mailto:webeshan@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+      <p>© Copyright 2020 Eshan Joshi</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
