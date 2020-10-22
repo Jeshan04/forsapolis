@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: #fff;
 }
 
 /* Headings */
@@ -34,12 +34,12 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #000000;
   color: #fff;
 }
 
 .white-section {
-  background-color: #fff;
+  background-color: #51eaea;
 }
 
 /* Navigation Bar */
@@ -72,7 +72,7 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
+  background-color: #000000;
   color: #fff;
   text-align: left;
 }
@@ -107,18 +107,18 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #111111;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #dadada;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #111111;
 }
 
 .testimonial-text {
@@ -143,8 +143,20 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA Section */
-
+/*Videos Sections */
+/*.iframe-container{
+  position: relative;
+  width: 45%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 45%;
+  height: 30%;
+}*/
 
 /* Footer Section */
 
@@ -170,3 +182,9 @@ p {
   margin: 100px auto 100px auto;
   text-align: left;
 }
+
+
+.memes-header{
+  padding: 0% 10%;
+}
+
