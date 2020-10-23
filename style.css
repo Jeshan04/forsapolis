@@ -39,7 +39,7 @@ p {
 }
 
 .white-section {
-  background-color: #51eaea;
+  background-color: #f0a500;
 }
 
 /* Navigation Bar */
@@ -112,14 +112,11 @@ p {
 }
 
 .icon:hover {
-  color: #dadada;
+  color: #cf7500;
 }
 
 /* Testimonial Section */
 
-#testimonials {
-  background-color: #111111;
-}
 
 .testimonial-text {
   font-size: 3rem;
